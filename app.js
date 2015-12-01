@@ -88,7 +88,7 @@ function onColorChanged(rgb) {
 }
 
 var img = new Image();
-img.src = 'color-wheel.png';
+img.src = './color-wheel.png';
 img.onload = function() {
   var canvas = document.querySelector('canvas');
   var context = canvas.getContext('2d');
