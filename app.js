@@ -23,14 +23,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
-  '/',
-  '/styles.css',
-  '/app.js',
-  '/playbulbCandle.js'
-];
-
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
