@@ -88,6 +88,7 @@ function onColorChanged(rgb) {
 }
 
 var img = new Image();
+img.crossOrigin = "Anonymous";
 img.src = './color-wheel.png';
 img.onload = function() {
   var canvas = document.querySelector('canvas');
