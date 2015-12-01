@@ -76,7 +76,7 @@
       .then(() => [r,g,b]); // Returns color when fulfilled.
     }
     setRainbow() {
-      let data = [0x01, 0x00, 0x00, 0x00, 0x02, 0x00, 0x01, 0x00];
+      let data = [0x01, 0x00, 0x00, 0x00, 0x02, 0x00, 0xA1, 0xA0];
       return this._writeCharacteristicValue(CANDLE_EFFECT_UUID, new Uint8Array(data));
     }
     setRainbowFade() {
