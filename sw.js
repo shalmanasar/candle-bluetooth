@@ -1,9 +1,9 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
   'styles.css',
   'app.js',
-  'playbulbCandle.js'
+  'playbulbCandle.js',
+  'color-wheel.png'
 ];
 
 self.addEventListener('install', function(event) {
